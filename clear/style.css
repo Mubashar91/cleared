@@ -1,0 +1,313 @@
+
+.companyname{
+  color: #fff;
+  font-family: sans-serif;
+  padding-top: 109px;
+  padding-bottom: 60px;
+}
+.sectionwidth{
+  width: 80%;
+   float: left;padding: 56px;
+   padding-right: 56px;
+   margin-top: 25px;
+   
+}
+
+.interior{
+          margin-top: 0px;
+          font-size: 64px;  
+          font-weight:bolder; 
+          
+
+          }
+          .showcase{
+            color: red;
+            font-weight:bolder;
+            font-size: 48px;
+         margin-bottom: 20px;
+          }
+          .hr{
+            width:50px;
+            border:4px solid red; 
+            border-radius: 5px;
+            margin-left: 0px;
+            
+          }
+          /* css of the 6 images */
+          .container {
+                    padding-top:32px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px; 
+            padding-bottom: 29px;
+          }
+          .box {
+         
+            padding: 10px;
+          }
+          .service{
+            color:red;
+            font-weight:bold;
+            font-size: 48px;
+            font-family: sans-serif,poppins;
+          }
+          .designer{
+            color:red;
+            font-weight:bold;
+            font-size: 48px;
+            font-family: sans-serif,poppins;
+            padding-top: 13px;
+          }
+        
+    
+          .contain{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 10px;
+          }
+          .box {
+            border: 1px solid rgb(236, 229, 229); 
+            padding: 10px;
+          }
+        
+          .imgh{
+            font-size:16px;
+            font-family: sans-serif;
+            color: #8D8988;
+            font-weight:lighter;
+          }
+*{
+    box-sizing: border-box;
+  }
+  html,body{
+    overflow: -x,hidden;
+    height:100vh;
+  }
+  body{
+    font-family: sans-serif;
+    background: #fff;
+  }
+
+  #sidebarmenu{
+    height: 100vh;
+    background-color: #e63838;
+   }
+    
+  
+  .menu li{
+    padding-top:0px;
+    padding-left: 0px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font:large;
+    font-weight: bold;
+  
+  }
+  .menu li a{
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  h5{
+    color: #fff;
+  }
+  .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+  }
+  .paragraph{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  .float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgb(190, 109, 109);
+  }  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  img {
+    width: 100%;
+  }
+  
+.cont{
+  width: 1000px;
+  
+  margin: 0px auto;
+  padding: 20px;
+  background-color: white;
+  margin-top: 500px;
+}
+.cont b{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+form input,
+form textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+form input:focus,
+form textarea:focus{
+  outline: none;
+  box-shadow: 0 0 5px #333;
+}
+form button{
+  display: block;
+  width: 100px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  cursor:  pointer ;
+      transition: 0.3s;
+  
+}
+form button:hover{
+  background-color:gray;
+  align-items: center;
+  color: white;
+}
+.contai {
+    display: flex;
+    padding: 36px;
+}
+.Box {
+    width: 50%;
+    height: 100px;
+    background-color: #AFA6A6;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; 
+    color: white;
+    font-size:large;
+
+
+}
+.Boxchild {
+    width: 100%;
+    height: 50px;
+    background-color: #F5F2F2;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size:small;
+    border-bottom: 1px solid gray;
+    
+
+}
+.Boxchild1 {
+    width: 100%;
+    height: 100px;
+    background-color:#F5F2F2;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; 
+    color:black;
+    font-size:small;
+    border-bottom: 1px solid gray;
+    
+
+
+}
+.Boxchild2 {
+    width: 100%;
+    height: 100px;
+    background-color:#F5F2F2;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size:larger;
+    border-bottom: 1px solid gray;
+}
+.Box1 {
+    width: 50%;
+    height: 100px;
+    background-color:rgb(236, 12, 12);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px; 
+    color: white;
+    font-size:small;
+}
+.Button{
+    height: 60px;
+    width: 110px;
+    text-decoration: white;
+    
+}
+.Button1{
+    height: 60px;
+    width: 110px;
+    background-color:rgb(247, 22, 22);
+    color: white;
+    
+}
+.Button1:hover{
+    background-color: black;
+    color: white;
+
+    
+}
+.Button:hover{
+    background-color: black;
+    color: white;
+    
+}
+.contact{
+  color: red;
+  font-size: 20px;
+font-weight:bolder;
+padding-bottom: 19px;
+}
+.frmblk{
+  font-size: small;
+}
+#pakg{
+  padding-top: 77px;
+}
+#above-despad{
+  padding-top: 70px;
+}
+#contactpra{
+  padding-top:10px ;
+}
+
+
+
+
+
+
+
+
+
+
